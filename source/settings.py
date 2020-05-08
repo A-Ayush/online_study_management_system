@@ -150,12 +150,14 @@ CRISPY_TEMPLATE_PACK = 'bootstrap3'
 # One-week activation window; you may, of course, use a different value.
 ACCOUNT_ACTIVATION_DAYS = 7
 
+# for email verification through your email
+
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = 'eLearn.smtp@gmail.com'
-EMAIL_HOST_PASSWORD = 'qwerty!@#$'
+EMAIL_HOST_USER = 'your_email@example.com'
+EMAIL_HOST_PASSWORD = '*******(your password)'
 
 
 # Automatically log the user in.
